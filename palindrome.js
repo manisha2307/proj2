@@ -31,6 +31,7 @@ function check_Palindrome(str_entry){
         console.log("The entry is a palindrome.");
         return true;
     }
+    check_Palindrome('return')
     check_Palindrome('madam');
     check_Palindrome('malayalam');
-    check_Palindrome('palindrome');
+    check_Palindrome('      ');
